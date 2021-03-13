@@ -43,6 +43,6 @@ public class CreateGrid : MonoBehaviour
             }
         }
 
-        this.setSelectedPlatform(3);
+        this.setSelectedPlatform(0);
     }
 }
