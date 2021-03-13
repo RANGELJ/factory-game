@@ -35,11 +35,17 @@ public class CreateGrid : MonoBehaviour
 
                 int platformIndex = rowNumber + (columnNumber * totalRows);
 
-                grid[platformIndex] = Instantiate(
+                GameObject platform = Instantiate(
                     platformPrefab,
                     new Vector3(xDistance, 0, yDistance),
                     Quaternion.identity
                 );
+
+                platform.GetComponent<PlatformBehaviour>().mouseDownHandler = () => {
+                    Debug.Log(platformIndex);
+                };
+
+                grid[platformIndex] = platform;
             }
         }
 
