@@ -21,7 +21,7 @@ public class CreateGrid : MonoBehaviour
         Camera.main.GetComponent<GOTranslator>().moveTo(3.8f, new Vector3(
             platformPosition.x,
             Camera.main.transform.position.y,
-            platformPosition.z
+            platformPosition.z - 1
         ));
     }
 
