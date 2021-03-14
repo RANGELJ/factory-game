@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class PlatformsGrid : MonoBehaviour
 {
+    private static int FRAMES_BETWEEN_UPDATE = 20;
+    private static int FRAMES_COUNTER = 0;
+    public static bool EXECUTE_UPDATE = false;
+
+
     public GameObject platformPrefab;
     public int totalRows = 1;
     public int totalColumns = 1;
     public float distanceBetwenPlatforms = 5;
+    public float initialMoney = 500;
 
     private GameObject[] grid;
     private int selectedPlatformIndex;
@@ -35,7 +41,7 @@ public class PlatformsGrid : MonoBehaviour
             Quaternion.identity
         );
 
-        platform.GetComponent<PlatformBehaviour>().mouseDownHandler = () => {
+        platform.GetComponent<BehaviourPlatform>().mouseDownHandler = () => {
             this.SetSelectedPlatform(platformIndex);
         };
 
@@ -60,5 +66,13 @@ public class PlatformsGrid : MonoBehaviour
         }
 
         this.SetSelectedPlatform(0);
+    }
+
+    void Update() {
+        EXECUTE_UPDATE = FRAMES_COUNTER == FRAMES_BETWEEN_UPDATE;
+        if (EXECUTE_UPDATE) {
+            FRAMES_COUNTER = 0;
+        }
+        FRAMES_COUNTER += 1;
     }
 }

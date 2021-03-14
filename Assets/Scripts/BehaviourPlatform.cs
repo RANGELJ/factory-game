@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlatformBehaviour : MonoBehaviour
+public class BehaviourPlatform : MonoBehaviour
 {
     public delegate void MouseDownHandler();
 
