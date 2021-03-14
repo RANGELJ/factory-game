@@ -13,7 +13,6 @@ public class CreateGrid : MonoBehaviour
     private int selectedPlatformIndex;
 
     private void setSelectedPlatform(int newPlatformIndex) {
-        Debug.Log(newPlatformIndex);
         selectedPlatformIndex = newPlatformIndex;
         GameObject selectedPlatform = grid[newPlatformIndex];
 

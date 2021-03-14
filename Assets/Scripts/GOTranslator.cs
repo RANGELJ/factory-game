@@ -13,8 +13,11 @@ public class GOTranslator : MonoBehaviour
 
     private bool shouldApplyDiference(Vector3 difference) {
         return difference.x > 0
+            || difference.x < 0
             || difference.y > 0
-            || difference.z > 0;
+            || difference.y < 0
+            || difference.z > 0
+            || difference.z < 0;
     }
 
     private IEnumerator actualMoveTo() {
