@@ -10,7 +10,6 @@ public class BehaviourGenerator : MonoBehaviour {
         if (PlatformsGrid.EXECUTE_UPDATE) {
             if (this.fuel > 0) {
                 fuel -= 1;
-                Debug.Log("Outputs energy: " + this.energyOutput);
             }
         }
     }
