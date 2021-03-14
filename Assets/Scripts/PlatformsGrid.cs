@@ -11,6 +11,8 @@ public class PlatformsGrid : MonoBehaviour
 
     public GameObject prefabPlatform;
     public GameObject prefabGenerator;
+
+    public UnityEngine.UI.Button addGeneratorButton;
     public UnityEngine.UI.Text moneyLabel;
 
     public int totalRows = 1;
@@ -43,7 +45,7 @@ public class PlatformsGrid : MonoBehaviour
         this.moneyLabel.text = "Money: " + this.availableMoney;
     }
 
-    private void AddGenerator() {
+    private void AddGeneratorToCurrentPlatform() {
         this.GetCurrentPlatform()
             .GetComponent<BehaviourPlatform>()
             .setItem(this.prefabGenerator);
@@ -85,6 +87,9 @@ public class PlatformsGrid : MonoBehaviour
 
         this.SetAvailableMoney(this.availableMoney);
         this.SetSelectedPlatform(0);
+        this.addGeneratorButton.onClick.AddListener(() => {
+            this.AddGeneratorToCurrentPlatform();
+        });
     }
 
     void Update() {
