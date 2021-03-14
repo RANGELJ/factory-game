@@ -9,18 +9,25 @@ public class PlatformsGrid : MonoBehaviour
     public static bool EXECUTE_UPDATE = false;
 
 
-    public GameObject platformPrefab;
+    public GameObject prefabPlatform;
+    public GameObject prefabGenerator;
+    public UnityEngine.UI.Text moneyLabel;
+
     public int totalRows = 1;
     public int totalColumns = 1;
     public float distanceBetwenPlatforms = 5;
-    public float initialMoney = 500;
+    public int availableMoney = 500;
 
     private GameObject[] grid;
     private int selectedPlatformIndex;
 
+    private GameObject GetCurrentPlatform() {
+        return grid[selectedPlatformIndex];
+    }
+
     private void SetSelectedPlatform(int newPlatformIndex) {
-        selectedPlatformIndex = newPlatformIndex;
-        GameObject selectedPlatform = grid[newPlatformIndex];
+        this.selectedPlatformIndex = newPlatformIndex;
+        GameObject selectedPlatform = this.GetCurrentPlatform();
 
         Vector3 platformPosition = selectedPlatform.transform.position;
 
@@ -31,12 +38,23 @@ public class PlatformsGrid : MonoBehaviour
         ));
     }
 
+    private void SetAvailableMoney(int newValue) {
+        this.availableMoney = newValue;
+        this.moneyLabel.text = "Money: " + this.availableMoney;
+    }
+
+    private void AddGenerator() {
+        this.GetCurrentPlatform()
+            .GetComponent<BehaviourPlatform>()
+            .setItem(this.prefabGenerator);
+    }
+
     private GameObject InstantiatePlatform(
         int platformIndex,
         Vector3 position
     ) {
         GameObject platform = Instantiate(
-            platformPrefab,
+            prefabPlatform,
             position,
             Quaternion.identity
         );
@@ -65,6 +83,7 @@ public class PlatformsGrid : MonoBehaviour
             }
         }
 
+        this.SetAvailableMoney(this.availableMoney);
         this.SetSelectedPlatform(0);
     }
 

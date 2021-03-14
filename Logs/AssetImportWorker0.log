@@ -689,3 +689,365 @@ Total: 1.125459 ms (FindLiveObjects: 0.110833 ms CreateObjectMapping: 0.024292 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000225 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.518 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.0 MB.
+System memory in use after: 128.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1662.
+Total: 1.112875 ms (FindLiveObjects: 0.114291 ms CreateObjectMapping: 0.024417 ms MarkObjects: 0.961250 ms  DeleteObjects: 0.011917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000265 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.570 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.1 MB.
+System memory in use after: 128.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1665.
+Total: 1.154500 ms (FindLiveObjects: 0.169125 ms CreateObjectMapping: 0.024041 ms MarkObjects: 0.939959 ms  DeleteObjects: 0.020292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.456 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.3 MB.
+System memory in use after: 128.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1668.
+Total: 1.119209 ms (FindLiveObjects: 0.128583 ms CreateObjectMapping: 0.024042 ms MarkObjects: 0.954750 ms  DeleteObjects: 0.011125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 12191.518831 seconds.
+  path: Assets/Prefabs/BaseGenerator.prefab
+  artifactKey: Guid(e50c4636b44ff48a9b2cbc07c6027bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BaseGenerator.prefab using Guid(e50c4636b44ff48a9b2cbc07c6027bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81847a5490b56a04b1ee5d571b69861f') in 0.609297 seconds
+  Import took 0.610932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.164258 seconds.
+  path: Assets/Prefabs/GasolineGenerator.prefab
+  artifactKey: Guid(e50c4636b44ff48a9b2cbc07c6027bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GasolineGenerator.prefab using Guid(e50c4636b44ff48a9b2cbc07c6027bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428dcfc9da6cc4a6d2cd4896d2060536') in 0.012064 seconds
+  Import took 0.013812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.281638 seconds.
+  path: Assets/Prefabs/Generator.prefab
+  artifactKey: Guid(e50c4636b44ff48a9b2cbc07c6027bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Generator.prefab using Guid(e50c4636b44ff48a9b2cbc07c6027bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3028df4bae47059f6d17eb795b6322d') in 0.007223 seconds
+  Import took 0.009096 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.573 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.8 MB.
+System memory in use after: 132.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1672.
+Total: 1.198041 ms (FindLiveObjects: 0.189875 ms CreateObjectMapping: 0.024542 ms MarkObjects: 0.961875 ms  DeleteObjects: 0.020875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000222 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.488 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 133.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1675.
+Total: 1.215583 ms (FindLiveObjects: 0.138000 ms CreateObjectMapping: 0.025209 ms MarkObjects: 1.036208 ms  DeleteObjects: 0.014917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000213 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.487 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 133.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 1.083042 ms (FindLiveObjects: 0.105416 ms CreateObjectMapping: 0.024292 ms MarkObjects: 0.936417 ms  DeleteObjects: 0.016083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000218 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.481 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.3 MB.
+System memory in use after: 133.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1681.
+Total: 1.080292 ms (FindLiveObjects: 0.104792 ms CreateObjectMapping: 0.024375 ms MarkObjects: 0.934500 ms  DeleteObjects: 0.015541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000208 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.505 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.5 MB.
+System memory in use after: 133.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1684.
+Total: 1.087125 ms (FindLiveObjects: 0.100417 ms CreateObjectMapping: 0.024166 ms MarkObjects: 0.950250 ms  DeleteObjects: 0.011292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.439 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.7 MB.
+System memory in use after: 133.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1687.
+Total: 1.147041 ms (FindLiveObjects: 0.182833 ms CreateObjectMapping: 0.023792 ms MarkObjects: 0.928083 ms  DeleteObjects: 0.010959 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.476 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.8 MB.
+System memory in use after: 133.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1690.
+Total: 1.069584 ms (FindLiveObjects: 0.110542 ms CreateObjectMapping: 0.024583 ms MarkObjects: 0.921458 ms  DeleteObjects: 0.012000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.552 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.0 MB.
+System memory in use after: 134.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1693.
+Total: 7.323458 ms (FindLiveObjects: 6.174375 ms CreateObjectMapping: 0.038667 ms MarkObjects: 1.081250 ms  DeleteObjects: 0.028083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000221 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.523 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.2 MB.
+System memory in use after: 134.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1696.
+Total: 1.118917 ms (FindLiveObjects: 0.098084 ms CreateObjectMapping: 0.024500 ms MarkObjects: 0.983416 ms  DeleteObjects: 0.012042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000674 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.520 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.3 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1699.
+Total: 1.185250 ms (FindLiveObjects: 0.181583 ms CreateObjectMapping: 0.023375 ms MarkObjects: 0.964250 ms  DeleteObjects: 0.014625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
