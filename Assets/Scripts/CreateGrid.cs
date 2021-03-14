@@ -13,6 +13,7 @@ public class CreateGrid : MonoBehaviour
     private int selectedPlatformIndex;
 
     private void setSelectedPlatform(int newPlatformIndex) {
+        Debug.Log(newPlatformIndex);
         selectedPlatformIndex = newPlatformIndex;
         GameObject selectedPlatform = grid[newPlatformIndex];
 
@@ -42,7 +43,7 @@ public class CreateGrid : MonoBehaviour
                 );
 
                 platform.GetComponent<PlatformBehaviour>().mouseDownHandler = () => {
-                    Debug.Log(platformIndex);
+                    this.setSelectedPlatform(platformIndex);
                 };
 
                 grid[platformIndex] = platform;
