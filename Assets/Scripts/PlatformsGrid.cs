@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CreateGrid : MonoBehaviour
+public class PlatformsGrid : MonoBehaviour
 {
     public GameObject platformPrefab;
     public int totalRows = 1;
@@ -12,17 +12,34 @@ public class CreateGrid : MonoBehaviour
     private GameObject[] grid;
     private int selectedPlatformIndex;
 
-    private void setSelectedPlatform(int newPlatformIndex) {
+    private void SetSelectedPlatform(int newPlatformIndex) {
         selectedPlatformIndex = newPlatformIndex;
         GameObject selectedPlatform = grid[newPlatformIndex];
 
         Vector3 platformPosition = selectedPlatform.transform.position;
 
-        Camera.main.GetComponent<GOTranslator>().moveTo(3.8f, new Vector3(
+        Camera.main.GetComponent<GOTranslator>().moveTo(10.1f, new Vector3(
             platformPosition.x,
             Camera.main.transform.position.y,
             platformPosition.z - 1
         ));
+    }
+
+    private GameObject InstantiatePlatform(
+        int platformIndex,
+        Vector3 position
+    ) {
+        GameObject platform = Instantiate(
+            platformPrefab,
+            position,
+            Quaternion.identity
+        );
+
+        platform.GetComponent<PlatformBehaviour>().mouseDownHandler = () => {
+            this.SetSelectedPlatform(platformIndex);
+        };
+
+        return platform;
     }
 
     void Start() {
@@ -35,20 +52,13 @@ public class CreateGrid : MonoBehaviour
 
                 int platformIndex = rowNumber + (columnNumber * totalRows);
 
-                GameObject platform = Instantiate(
-                    platformPrefab,
-                    new Vector3(xDistance, 0, yDistance),
-                    Quaternion.identity
+                grid[platformIndex] = this.InstantiatePlatform(
+                    platformIndex,
+                    new Vector3(xDistance, 0, yDistance)
                 );
-
-                platform.GetComponent<PlatformBehaviour>().mouseDownHandler = () => {
-                    this.setSelectedPlatform(platformIndex);
-                };
-
-                grid[platformIndex] = platform;
             }
         }
 
-        this.setSelectedPlatform(0);
+        this.SetSelectedPlatform(0);
     }
 }

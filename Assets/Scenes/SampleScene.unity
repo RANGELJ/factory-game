@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 214122253}
   - component: {fileID: 214122252}
   m_Layer: 5
-  m_Name: Add
+  m_Name: AddBatteryButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -508,7 +508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TouchZoomSpeed: 0.1
-  ZoomMinBound: 5
+  ZoomMinBound: 7
   ZoomMaxBound: 120
 --- !u!1 &977341173
 GameObject:
@@ -734,8 +734,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platformPrefab: {fileID: 8107109168505301347, guid: a51aa1261e54749dfbbd942e87686d59,
     type: 3}
-  totalRows: 5
-  totalColumns: 5
+  totalRows: 4
+  totalColumns: 4
   distanceBetwenPlatforms: 4.5
 --- !u!1 &1977093473
 GameObject:
