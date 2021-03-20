@@ -3,11 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace FactoryGame {
+    public enum GameStates {
+        IDLE,
+    }
+
     public class MainGameLogic : MonoBehaviour {
         public GameObject emptyCellPrefab;
+        public UnityEngine.UI.Text moneyLabelPrefab;
+        public UnityEngine.UI.Text energyLabelPrefab;
 
         public int initialCellRows = 5;
         public int initialCellColumns = 5;
+
+        public int money = 100;
+        public int energy = 200;
+
+        private GameStates currentState = GameStates.IDLE;
+
+        private void updateMoneyLabel() {
+            this.moneyLabelPrefab.text = "MONEY: " + this.money;
+        }
+
+        private void updateEnergyLabel() {
+            this.energyLabelPrefab.text = "ENERGY: " + this.energy;
+        }
 
         void Start() {
             for (
@@ -31,6 +50,9 @@ namespace FactoryGame {
                     );
                 }
             }
+
+            this.updateMoneyLabel();
+            this.updateEnergyLabel();
         }
     }
 }
